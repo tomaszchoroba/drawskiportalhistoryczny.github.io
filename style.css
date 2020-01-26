@@ -1,0 +1,191 @@
+.navbar li a {
+    color: #D1D3D4; /*Change active text color here*/
+}
+.navbar a {
+    color: white; /*Change active text color here*/
+}
+.navbar li a:hover {
+    color: white; /*Change active text color here*/ 
+}
+.navbar-default .navbar-nav > .active > a {
+    color: white;
+}
+.drawsko_p1 {
+    float: right;
+}
+.opis_hist {
+    padding-top: 70px;
+}
+.second {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#second {
+    margin-top: 50px;
+}
+.herb_gl {
+    float: left;
+    padding-right: 20px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hasztags {
+    font-family: 'Alata', sans-serif;
+}
+.article {
+    font-family: 'Alata', sans-serif;
+}
+.second {
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+.active {
+    text-transform: uppercase;
+}
+h1, h2 {
+    font-family: 'Alata', sans-serif;
+}
+.graypower {
+    background-color: #2F3538;
+}
+.picture {
+    max-width: 100%;
+    padding: 0;
+}
+.card-text {
+    margin: 0;
+}
+.card-title {
+    font-weight: 600; 
+    color: black;
+}
+.card-columns {
+    margin-top: 20px;
+}
+.navbar {
+    background-color: #ae2d59;
+}
+.nav-item > a {
+    color: black;
+}
+.alert {
+    background-color: #ae2d59
+}
+.patronite {
+    text-align: center;
+}
+.justify-content-end {
+    width: 1140px;
+    margin: auto;
+}
+
+footer {
+    background-color: #ae2d59;
+    color: white;
+    text-align: center;
+    height: 70px;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/logo12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(50%);
+}
+.hero-content {
+    position: relative;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+}
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+.hero-button {
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+.hero-button2 {
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 2rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: #cb376a;
+    border: 1px solid #db7598;
+}
+
+
